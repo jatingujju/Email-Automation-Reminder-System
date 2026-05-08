@@ -1,8 +1,8 @@
 # 📧 Email Automation & Reminder System
 
-An industry-style Email Automation Dashboard built using Python, SQLite, Streamlit, Jinja2, SMTP, and RRULE scheduling.
+An industry-style Email Automation & Reminder System built using Python, SQLite, Streamlit, Jinja2, SMTP, and RRULE scheduling.
 
-This project automates reminder scheduling, email rendering, analytics visualization, and email dispatching through a premium Streamlit dashboard.
+This project automates reminder scheduling, email rendering, analytics visualization, and email dispatching through a modern interactive dashboard.
 
 ---
 
@@ -15,12 +15,14 @@ This project automates reminder scheduling, email rendering, analytics visualiza
 ✅ Streamlit Dashboard  
 ✅ Jinja2 Email Templates  
 ✅ Markdown → HTML Rendering  
-✅ Reminder Analytics Dashboard  
-✅ Interactive Charts  
+✅ Interactive Analytics Dashboard  
+✅ Reminder Scheduling System  
 ✅ Contacts Management  
-✅ Reminder Creation Forms  
-✅ Send Test Email Feature  
+✅ Add Contact Forms  
+✅ Reminder Analytics Charts  
 ✅ Premium Dark UI  
+✅ Dashboard Controls  
+✅ Automated Reminder Workflow  
 
 ---
 
@@ -34,7 +36,7 @@ This project automates reminder scheduling, email rendering, analytics visualiza
 
 ## Analytics Section
 
-![Analytics](screenshots/dashboard1.JPG)
+![Analytics](screenshots/Analytics.JPG)
 
 ---
 
@@ -55,7 +57,7 @@ This project automates reminder scheduling, email rendering, analytics visualiza
 # 📂 Project Structure
 
 ```plaintext
-email-automation/
+Email-Automation-Reminder-System/
 │
 ├── dashboard.py
 ├── schedular.py
@@ -72,10 +74,11 @@ email-automation/
 │
 ├── screenshots/
 │   ├── dashboard.JPG
-│   └── dashboard1.JPG
+│   └── Analytics.JPG
 │
-├── logs/
-│   └── email_logs.log
+├── __pycache__/
+│
+└── .gitignore
 ```
 
 ---
@@ -117,7 +120,7 @@ RRULE Processing
    ↓
 Jinja2 Template Rendering
    ↓
-Markdown → HTML
+Markdown → HTML Conversion
    ↓
 SMTP Email Dispatch
    ↓
@@ -128,16 +131,16 @@ Real Email Delivery
 
 # 📈 Dashboard Features
 
-- Contacts Analytics
-- Reminder Frequency Charts
-- Department Distribution Pie Chart
-- Add Contact Form
-- Create Reminder Form
-- Reminder Scheduler
-- Send Test Email Feature
-- Email Logs Viewer
-- Sidebar Controls
-- Dashboard Refresh Feature
+- Contacts Database Management
+- Reminder Scheduling
+- Reminder Frequency Analytics
+- Department Distribution Charts
+- Add New Contact Form
+- Scheduler Trigger Controls
+- Dashboard Refresh System
+- Interactive Charts & Tables
+- Real-time Metrics
+- Premium Sidebar UI
 
 ---
 
@@ -148,29 +151,29 @@ Sensitive files are excluded using `.gitignore`
 ```gitignore
 .env
 __pycache__/
-logs/
 ```
 
 ---
 
 # 📌 Future Improvements
 
-- Authentication System
+- User Authentication
 - Cloud Deployment
 - Email History Tracking
 - Auto Scheduler Execution
 - Notification System
 - AI-based Reminder Suggestions
 - REST API Integration
+- Multi-user Support
 
 ---
 
 # 👨‍💻 Author
 
-Developed by Jatin Gujarathi
+Developed by **Jatin Gujarathi**
 
 ---
 
-# ⭐ If you like this project
+# ⭐ Support
 
-Give this repository a star ⭐
+If you like this project, give this repository a ⭐ on GitHub.
