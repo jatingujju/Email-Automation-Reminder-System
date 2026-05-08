@@ -36,8 +36,7 @@ This project automates reminder scheduling, email rendering, analytics visualiza
 
 ## Analytics Section
 
-![Analytics](screenshots/Analytics.JPG)
-
+![Analytics](screenshots/analytics.jpg)
 ---
 
 # 🛠️ Technologies Used
